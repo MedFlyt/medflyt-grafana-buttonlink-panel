@@ -1,0 +1,31 @@
+{
+  "$schema": "https://raw.githubusercontent.com/grafana/grafana/main/docs/sources/developers/plugins/plugin.schema.json",
+  "type": "panel",
+  "name": "Button Link",
+  "id": "eliyamedflyt-buttonlink-panel",
+  "skipDataQuery": true,
+  "info": {
+    "keywords": ["panel"],
+    "description": "A button link that navigates like an <a> tag",
+    "author": {
+      "name": "Medflyt (Eliya Cohen)"
+    },
+    "logos": {
+      "small": "img/logo.svg",
+      "large": "img/logo.svg"
+    },
+    "links": [],
+    "screenshots": [
+        { "name": "Button Link", "path": "img/screenshot-button.png" },
+        { "name": "Button Link Options", "path": "img/screenshot-options.png" },
+        { "name": "Button Link Demo", "path": "img/screenshot-demo.png" },
+        { "name": "Button Link Demo #2", "path": "img/screenshot-delete.png" }
+    ],
+    "version": "%VERSION%",
+    "updated": "%TODAY%"
+  },
+  "dependencies": {
+    "grafanaDependency": ">=10.3.3",
+    "plugins": []
+  }
+}
