@@ -90,7 +90,7 @@ jobs:
         with:
           url: 'http://localhost:4201/'
           responseCode: 200
-          timeout: 3000
+          timeout: 10000
           interval: 500
 
       - name: Run e2e tests
